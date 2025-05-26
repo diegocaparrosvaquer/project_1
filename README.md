@@ -10,7 +10,7 @@ El sistema se desarrolla en Python y hace uso exclusivo de Pandas para la manipu
 - Generar visualizaciones interactivas y exportar resultados a diferentes formatos (CSV, PDF, HTML).
 
 El enfoque modular del proyecto facilita la escalabilidad y mantenimiento, permitiendo añadir nuevas funcionalidades o ampliar las consultas según las necesidades del usuario.
-
+```
 Proyecto_TransitAnalytics/
 ├── data/
 │   └── sample.csv           # Archivos CSV de ejemplo o de producción.
@@ -27,7 +27,7 @@ Proyecto_TransitAnalytics/
 ├── main.py                  # Punto de entrada de la aplicación, integrando todos los módulos.
 ├── requirements.txt         # Lista de dependencias del proyecto.
 └── README.md                # Este archivo de documentación.
-
+```
 ## Tecnologías Utilizadas
 
 - **Python:** Lenguaje principal de desarrollo.
