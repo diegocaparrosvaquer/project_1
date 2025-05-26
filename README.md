@@ -11,23 +11,22 @@ El sistema se desarrolla en Python y hace uso exclusivo de Pandas para la manipu
 
 El enfoque modular del proyecto facilita la escalabilidad y mantenimiento, permitiendo añadir nuevas funcionalidades o ampliar las consultas según las necesidades del usuario.
 
-## Estructura del Proyecto
 Proyecto_TransitAnalytics/
 ├── data/
-│ └── sample.csv # Archivos CSV de ejemplo o de producción.
+│   └── sample.csv           # Archivos CSV de ejemplo o de producción.
 ├── notebooks/
-│ └── Exploratory_Analysis.ipynb # Notebooks para análisis exploratorio y pruebas interactivas.
+│   └── Exploratory_Analysis.ipynb  # Notebooks para análisis exploratorio y pruebas interactivas.
 ├── src/
-│ ├── init.py
-│ ├── data_loader.py # Funciones para la carga de archivos CSV usando Pandas.
-│ ├── data_cleaner.py # Módulos para la limpieza y preprocesamiento de los datos.
-│ ├── analysis.py # Funciones para realizar consultas, filtrados y cálculos estadísticos.
-│ ├── query_parser.py # Mapeo de consultas en lenguaje natural a operaciones en Pandas.
-│ ├── visualizations.py # Generación de gráficos y visualizaciones (Matplotlib o Plotly).
-│ └── exporter.py # Exportación de resultados a CSV, PDF o HTML.
-├── main.py # Punto de entrada de la aplicación, integrando todos los módulos.
-├── requirements.txt # Lista de dependencias del proyecto.
-└── README.md # Este archivo de documentación.
+│   ├── __init__.py
+│   ├── data_loader.py       # Funciones para la carga de archivos CSV usando Pandas.
+│   ├── data_cleaner.py      # Módulos para la limpieza y preprocesamiento de los datos.
+│   ├── analysis.py          # Funciones para realizar consultas, filtrados y cálculos estadísticos.
+│   ├── query_parser.py      # Mapeo de consultas en lenguaje natural a operaciones en Pandas.
+│   ├── visualizations.py    # Generación de gráficos y visualizaciones (Matplotlib o Plotly).
+│   └── exporter.py          # Exportación de resultados a CSV, PDF o HTML.
+├── main.py                  # Punto de entrada de la aplicación, integrando todos los módulos.
+├── requirements.txt         # Lista de dependencias del proyecto.
+└── README.md                # Este archivo de documentación.
 
 ## Tecnologías Utilizadas
 
